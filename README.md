@@ -1,24 +1,24 @@
-🔥 Calories Burned Prediction
+# 🔥 Calories Burned Prediction
 
 A Machine Learning project that predicts the number of calories burned during physical activities based on user attributes and workout parameters such as age, gender, height, weight, duration, heart rate, and body temperature.
 
 This project demonstrates the complete ML workflow — from data preprocessing and visualization to model building and evaluation.
 
-📌 Project Overview
+# 📌 Project Overview
 
 The goal of this project is to build a regression model that can estimate how many calories a person burns during exercise. This can help in:
 
-Fitness tracking
+- Fitness tracking
 
-Personalized workout planning
+- Personalized workout planning
 
-Health monitoring
+- Health monitoring
 
-Calorie management
+- Calorie management
 
 The model learns patterns from historical exercise data and predicts calorie burn for new inputs.
 
-🚀 Features
+# 🚀 Features
 
 ✅ Data Cleaning & Preprocessing
 ✅ Exploratory Data Analysis (EDA)
@@ -27,122 +27,123 @@ The model learns patterns from historical exercise data and predicts calorie bur
 ✅ Model Training & Evaluation
 ✅ Regression-based Prediction
 
-🗂️ Dataset Information
+# 🗂️ Dataset Information
 
 The dataset contains exercise-related records with the following features:
 
-Age – Age of the person
+- Age – Age of the person
 
-Gender – Male/Female
+- Gender – Male/Female
 
-Height – Height in cm
+- Height – Height in cm
 
-Weight – Weight in kg
+- Weight – Weight in kg
 
-Duration – Exercise duration (minutes)
+- Duration – Exercise duration (minutes)
 
-Heart Rate – Heart beats per minute
+- Heart Rate – Heart beats per minute
 
-Body Temp – Body temperature (°C)
+- Body Temp – Body temperature (°C)
 
-Calories – Calories burned (Target Variable)
+- Calories – Calories burned (Target Variable)
 
-🧠 Machine Learning Workflow
+# 🧠 Machine Learning Workflow
 
-Import Libraries
+1. Import Libraries
 
-NumPy
+- NumPy
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
-Scikit-learn
+- Scikit-learn
 
-Data Loading
+2. Data Loading
 
-Read dataset
+- Read dataset
 
-Merge datasets if required
+- Merge datasets if required
 
-Data Preprocessing
+3. Data Preprocessing
 
-Handling missing values
+- Handling missing values
 
-Encoding categorical variables
+- Encoding categorical variables
 
-Feature selection
+- Feature selection
 
-Exploratory Data Analysis
+4. Exploratory Data Analysis
 
-Distribution plots
+- Distribution plots
 
-Correlation heatmaps
+- Correlation heatmaps
 
-Count plots
+- Count plots
 
-Pair plots
+ -Pair plots
 
-Model Building
+5. Model Building
 
-Train-test split
+- Train-test split
 
-Regression model training
+- Regression model training
 
-Model Evaluation
+6. Model Evaluation
 
-Mean Absolute Error (MAE)
+- Mean Absolute Error (MAE)
 
-Mean Squared Error (MSE)
+- Mean Squared Error (MSE)
 
-R² Score
+- R² Score
 
-📊 Visualizations
+# 📊 Visualizations
 
 The notebook includes visual insights such as:
 
-Gender distribution
+- Gender distribution
 
-Feature correlations
+- Feature correlations
 
-Calories vs duration
+- Calories vs duration
 
-Calories vs heart rate
+- Calories vs heart rate
 
 These help understand relationships in the data.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-Python
+- Python
 
-Jupyter Notebook
+- Jupyter Notebook
 
-Pandas & NumPy
+- Pandas & NumPy
 
-Seaborn & Matplotlib
+- Seaborn & Matplotlib
 
-Scikit-learn
-📈 Model Performance
+- Scikit-learn
+
+# 📈 Model Performance
 
 The model is evaluated using regression metrics:
 
-MAE
+- MAE
 
-MSE
+- MSE
 
-R² Score
+- R² Score
 
 Higher R² and lower error values indicate better performance.
 
 
-🎯 Use Cases
+# 🎯 Use Cases
 
-Fitness apps
+- Fitness apps
 
-Gym trainers
+- Gym trainers
 
-Health monitoring systems
+- Health monitoring systems
 
-Personal calorie tracking tools
+- Personal calorie tracking tools
